@@ -1,0 +1,38 @@
+*{
+    margin:0 ;
+    padding:0 ;
+}
+
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav{
+    
+}
+
+.logo {
+    margin: 5px 10px;
+    width: 120px;
+    height: 65px;
+    margin: 20px 0;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    list-style: none;
+    cursor: pointer;
+}
+
+.historia{
+    padding: 10px;
+
+}
+
+.parrafo{
+    margin: 5px;
+    }
+
