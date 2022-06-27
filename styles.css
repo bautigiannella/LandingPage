@@ -10,7 +10,6 @@ body{
 img{
     width: 125px;
     height: 82px;
-    border-radius: 50%;
     margin: 10px;
 }
 
@@ -18,7 +17,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(2, 32, 51)
 }
 
 nav{
@@ -42,7 +41,8 @@ a{
 }
 
 section{
-    margin-bottom: 5%;
+    
+    background-image: url(http://w.uces.edu.ar/wp-content/uploads/2013/07/turismo.png);
 }
 
 h1{
