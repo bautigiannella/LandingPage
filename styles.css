@@ -6,62 +6,89 @@
 
 /* globales */
 
-body{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-image: url(https://img.freepik.com/foto-gratis/hermoso-fondo-azul-claro-vintage-decoracion-pintura-pared-telon-fondo_1962-1376.jpg?w=2000);
+body {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+   
     background-repeat: no-repeat;
-    
-}
-
-img{
+  }
+  
+  .logo {
     width: 125px;
     height: 82px;
     margin: 10px;
     border-radius: 40%;
-}
-
-header{
+  }
+  
+  header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(2, 32, 51)
-}
-
-nav{
+    background-color: rgb(2, 32, 51);
+  }
+  
+  nav {
     display: flex;
     align-items: center;
-}
-
-ul{
+  }
+  
+  ul {
     list-style: none;
     display: flex;
-}
-
-li{
+  }
+  
+  li {
     margin: 0 10px;
     font-size: 20px;
-}
-a{
+  }
+  a {
     text-decoration: none;
     color: white;
     font-size: 20px;
-}
-
-h1{
-    padding: 10px 10px ;
+  }
+  
+  h1 {
+    padding: 10px 10px;
     text-align: center;
     font-size: 50px;
-}
-
-p{
+    background-image: url(https://img.freepik.com/foto-gratis/hermoso-fondo-azul-claro-vintage-decoracion-pintura-pared-telon-fondo_1962-1376.jpg?w=2000);
+  }
+  
+  p {
     margin: 0px 50px;
     text-align: center;
-}
-
-/* etiquetas de clase */
-
-.portada {
+  }
   
-    
+  /* etiquetas de clase */
+  
+  .portada {
+    background-image: url(https://www.entornoturistico.com/wp-content/uploads/2016/01/turismo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+  }
+  
+  .portada h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+  }
+  
+  .portada p {
+    margin: 30px 0;
+  }
+  
+  .boton_vermas {
+    margin: 0 580px;
+    padding: 15px 40px 15px 40px;
+    font-weight: 600;
+    font-size: 20px;
+    color:#333333;
+    background-color:black;
+    border-color: #d8d8d8;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:35px;
 }
 
+  
